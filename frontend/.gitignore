@@ -1,0 +1,54 @@
+# =========================
+# 📁 FRONTEND (React)
+# =========================
+/frontend/node_modules/
+/frontend/build/
+/frontend/.pnp/
+/frontend/pnp.js
+
+# ENV files
+/frontend/.env*
+/frontend/.DS_Store
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Test coverage
+/frontend/coverage/
+
+
+# =========================
+# 📁 BACKEND (FastAPI)
+# =========================
+/backend/.venv/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/.DS_Store
+
+# ENV files
+/backend/.env
+
+# Chroma DB cache
+/backend/chroma_db/
+~$chroma_db/
+
+# =========================
+# 🧹 System/IDE files
+# =========================
+*.swp
+*.swo
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# 🚫 Large Binary Files (Prevent pushing oversized files)
+# =========================
+*.dll
+*.lib
+*.pyd
+Thumbs.db
+ehthumbs.db
